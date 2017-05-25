@@ -6,5 +6,8 @@
     <item android:id="@+id/menu2_pic_size"
         android:title="이미지(크기)"
         />
+    <item android:id="@+id/menu2_pic_change"
+        android:title="이미지(변경)"
+        />
 
 </menu>

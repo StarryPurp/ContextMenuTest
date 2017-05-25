@@ -64,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu2_pic_size:
                 pic.setScaleX(1.5f);
                 pic.setScaleY(1.5f);//1.5배씩 배수로 커짐
+                //pic.setScaleX(pic.getScaleX()*1.5f);
+                return true;
+            case R.id.menu2_pic_change:
+                pic.setImageResource(R.drawable.apeach);
                 return true;
         }
 
